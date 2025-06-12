@@ -1,0 +1,12 @@
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
