@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom"
 function Eventos () {
     return(
         <>
+        <div className="view">
         <div className="header"> 
         <NavLink className="title" to="/">L Y N K</NavLink>
             <div className="nav">
@@ -16,6 +17,8 @@ function Eventos () {
         </div>
         <h1>Lleva tus eventos al máximo!</h1>
         <NavLink className="back" to="/"> 🡰   Go Back</NavLink>
+        </div>
+
         </>
     ) 
 }

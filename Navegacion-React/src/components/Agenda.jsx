@@ -5,6 +5,8 @@ import { NavLink } from "react-router-dom"
 function Agenda () {
     return(
         <>
+        <div className="view">
+
         <div className="header"> 
         <NavLink className="title" to="/">L Y N K</NavLink>
             <div className="nav">
@@ -16,6 +18,8 @@ function Agenda () {
         </div>
         <h1>Agenda tus eventos!</h1>
         <NavLink className="back" to="/">🡰 Go Back</NavLink>
+        </div>
+
         </>
     ) 
 }

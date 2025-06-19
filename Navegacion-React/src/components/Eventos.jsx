@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom"
 function Gestion () {
     return(
         <>
+        <div className="view">
         <div className="header"> 
         <NavLink className="title" to="/">L Y N K</NavLink>
             <div className="nav">
@@ -16,6 +17,7 @@ function Gestion () {
         </div>
         <h1>Los mejores eventos!</h1>
         <NavLink className="back" to="/">🡰 Go Back</NavLink>
+        </div>
         </>
     ) 
 }
