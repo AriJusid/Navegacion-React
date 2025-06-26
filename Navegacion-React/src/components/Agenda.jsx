@@ -1,10 +1,13 @@
 import React  from "react"
 import { NavLink } from "react-router-dom"
+import fondo from "../assets/fotcio.jpg";
 
 
 function Agenda () {
     return(
         <>
+        <div style={{ backgroundImage: `url(${fondo})`, backgroundRepeat:'no-repeat' }}>
+
         <div className="view">
 
         <div className="header"> 
@@ -16,8 +19,9 @@ function Agenda () {
                 <NavLink className="button"  to="/Agenda">Agenda</NavLink>
             </div>
         </div>
-        <h1>Agenda tus eventos!</h1>
+        <h1 style={{ color: "#fff",paddingTop:250}}>Agenda tus eventos!</h1>
         <NavLink className="back" to="/">🡰 Go Back</NavLink>
+        </div>
         </div>
 
         </>
